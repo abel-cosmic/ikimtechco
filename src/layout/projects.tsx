@@ -10,8 +10,8 @@ import {
   zoomInAnimation,
   zoomUpAnimation,
 } from "@/utils/animations/motion";
-import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
+import { motion } from "motion/react";
 import { useState } from "react";
 
 export const ProjectsLayout = () => {

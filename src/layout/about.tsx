@@ -1,8 +1,8 @@
 "use client";
 
+import { staggerUpAnimation, zoomInAnimation } from "@/utils/animations/motion";
+import { Check, Headset, Palette, Settings, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
-import { Check, Sparkles, Palette, Headset, Settings } from "lucide-react";
-import { zoomInAnimation, staggerUpAnimation } from "@/utils/animations/motion";
 
 export default function AboutSection() {
   const features = [

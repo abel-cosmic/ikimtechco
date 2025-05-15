@@ -1,7 +1,7 @@
 "use client";
 import {
-  zoomInAnimation,
   staggerUpAnimation,
+  zoomInAnimation,
   zoomUpAnimation,
 } from "@/utils/animations/motion";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";

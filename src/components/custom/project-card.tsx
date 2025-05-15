@@ -1,4 +1,3 @@
-import { motion } from "motion/react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -7,12 +6,13 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import { Eye, Link } from "lucide-react";
 import {
-  zoomInAnimation,
   staggerUpAnimation,
+  zoomInAnimation,
   zoomUpAnimation,
 } from "@/utils/animations/motion";
+import { Eye, Link } from "lucide-react";
+import { motion } from "motion/react";
 
 export type ProjectType = "web" | "app" | "mobile" | "other";
 

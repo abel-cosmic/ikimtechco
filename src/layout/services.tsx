@@ -1,6 +1,9 @@
 "use client";
 
-import { motion } from "motion/react";
+import {
+  staggerUpAnimation,
+  zoomInAnimation
+} from "@/utils/animations/motion";
 import {
   AlignVerticalSpaceAround,
   Cpu,
@@ -12,11 +15,7 @@ import {
   VideoIcon,
   Zap,
 } from "lucide-react";
-import {
-  zoomInAnimation,
-  staggerUpAnimation,
-  zoomUpAnimation,
-} from "@/utils/animations/motion";
+import { motion } from "motion/react";
 
 export default function Services() {
   const services = [

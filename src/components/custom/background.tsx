@@ -5,7 +5,7 @@ const Background = () => {
       style={{
         backgroundImage: `url("https://shadcnblocks.com/images/block/patterns/square-alt-grid.svg")`,
         backgroundRepeat: "repeat",
-        backgroundSize: "auto", // or specific size like '50px 50px' if needed
+        backgroundSize: "auto",
       }}
     />
   );

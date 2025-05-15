@@ -20,6 +20,8 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("Home");
 
+  console.log(isScrolled, isMobileMenuOpen);
+
   const navItems: {
     name: string;
     href?: string;
