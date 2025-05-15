@@ -114,12 +114,10 @@ export default function Navbar() {
         <Link href="/" className="flex items-center text-xl font-bold">
           <ProjectLogo />
         </Link>
-        {/**@ts-ignore */}
         <div className="flex flex-row gap-4">
           <Menubar className="w-fit  max-lg:hidden ">
             {navItems.map((item) => (
               <MenubarMenu key={item.name}>
-                {/**@ts-ignore */}
                 <MenubarTrigger hasChildren={item.subMenus ? true : false}>
                   {item.subMenus ? (
                     item.name
@@ -141,11 +139,9 @@ export default function Navbar() {
                 </MenubarTrigger>
                 {item.subMenus && (
                   <>
-                    {/**@ts-ignore */}
                     <MenubarContent className={`bg-background`}>
                       {item.subMenus.map((subMenu) => (
                         <>
-                          {/**@ts-ignore */}
                           <MenubarItem key={subMenu.name}>
                             <Link
                               href={subMenu.href}
@@ -184,7 +180,6 @@ export default function Navbar() {
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
           </SheetTrigger>
-          {/**@ts-ignore */}
           <SheetContent side="right" className="w-[300px] sm:w-[400px] z-100">
             <nav className="grid gap-6 p-4">
               <Link

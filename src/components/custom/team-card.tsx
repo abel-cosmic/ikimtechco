@@ -19,14 +19,14 @@ const TeamsCard = ({
   name,
   role,
   avatar,
-  link,
+  // link,
   socials,
 }: {
   index: number;
   name: string;
   role: string;
   avatar: string;
-  link: string;
+  // link: string;
   socials: SocialLink[];
 }) => {
   // Map platform names to their respective icons

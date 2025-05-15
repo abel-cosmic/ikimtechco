@@ -57,7 +57,7 @@ export default function AboutSection() {
             className="text-lg"
             variants={staggerUpAnimation}
           >
-            At IKIM Tech, we combine innovation, expertise, and dedication to deliver exceptional results. Here's why we stand out:
+            At IKIM Tech, we combine innovation, expertise, and dedication to deliver exceptional results. Here&apos;s why we stand out:
           </motion.p>
         </motion.div>
 
